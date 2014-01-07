@@ -1,0 +1,42 @@
+[Config]
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+Compilator.LogType=0
+DefaultDir=E:\www\Forth\ezForth\IDE\ISP
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+AbsolutePath=0
+FileFormat=0
+ProjectFilesOnly=0
+Extensions=*.*
+[Project tree]
+ISP
+	+ISP
+		+Target
+			+Arm
+				+STM32F407
+					Target\Arm\STM32F407\Get_command.f
+		-.git
+			+hooks
+				.git\hooks\README.sample
+			+info
+				.git\info\exclude
+			.git\config
+			.git\description
+			.git\HEAD
+		.gitattributes
+		.gitignore
+[Open project files]
+0=Target\Arm\STM32F407\Get_command.f
+1=Target\Arm\STM32F407\Get_Version&Read_Protection_Status_command.f
+[Selected Project Files]
+Main=
+Selected=Target\Arm\STM32F407\Get_Version&Read_Protection_Status_command.f
+[Target\Arm\STM32F407\Get_command.f]
+TopLine=1
+Caret=3,5
+[Target\Arm\STM32F407\Get_Version&Read_Protection_Status_command.f]
+TopLine=1
+Caret=3,5
